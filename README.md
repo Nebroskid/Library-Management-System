@@ -51,7 +51,7 @@ This project implements a library management system with full CRUD operations fo
 ```
 Library-Management-System/
 │
-├── src/
+├── src/                    # Directory with all the C++ header and source files
 │   ├── Book.h              # Book class declaration
 │   ├── Book.cpp            # Book class implementation
 │   ├── Library.h           # Library class declaration
@@ -60,7 +60,7 @@ Library-Management-System/
 │
 └── .github/
     └── workflows/
-        └── c-cpp.yml
+        └── c-cpp.yml       # GitHub Actions workflow for automatic CI builds
 ```
 
 ## 🔧 Installation
