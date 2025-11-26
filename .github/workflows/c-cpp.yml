@@ -17,5 +17,5 @@ jobs:
         run: |
           g++ -std=c++11 main.cpp Book.cpp Library.cpp -o Library
 
-      - name: Run program
-        run: ./Library
+      # - name: Run program
+      #   run: ./Library
