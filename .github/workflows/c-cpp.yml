@@ -1,0 +1,21 @@
+name: C++ Build
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build project
+        run: |
+          g++ -std=c++11 main.cpp Book.cpp Library.cpp -o Library
+
+      - name: Run program
+        run: ./Library
