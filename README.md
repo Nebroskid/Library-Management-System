@@ -51,11 +51,16 @@ This project implements a library management system with full CRUD operations fo
 ```
 Library-Management-System/
 │
-├── Book.h              # Book class declaration
-├── Book.cpp            # Book class implementation
-├── Library.h           # Library class declaration
-├── Library.cpp         # Library class implementation
-└── main.cpp            # Main program with menu interface
+├── src/
+│   ├── Book.h              # Book class declaration
+│   ├── Book.cpp            # Book class implementation
+│   ├── Library.h           # Library class declaration
+│   ├── Library.cpp         # Library class implementation
+│   └── main.cpp            # Main program with menu interface
+│
+└── .github/
+    └── workflows/
+        └── c-cpp.yml
 ```
 
 ## 🔧 Installation
